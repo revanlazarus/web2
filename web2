@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI-Powered Strategy for Creators & Content Teams</title>
+  <style>
+    /* Base Styles & Reset */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    
+    /* Hero Section */
+    header {
+      background: linear-gradient(135deg, #4e54c8, #8f94fb);
+      color: #fff;
+      padding: 100px 0;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 40px;
+    }
+    .btn {
+      background: #ff5a5f;
+      padding: 15px 30px;
+      border-radius: 4px;
+      font-size: 1.1rem;
+      transition: background 0.3s;
+      color: #fff;
+    }
+    .btn:hover {
+      background: #e04e52;
+    }
+    
+    /* Section Styles */
+    section {
+      padding: 80px 0;
+      text-align: center;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+      color: #4e54c8;
+    }
+    
+    /* What We Do Section */
+    .three-columns {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .column {
+      flex: 1;
+      min-width: 250px;
+      max-width: 32%;
+      background: #f9f9f9;
+      border-radius: 8px;
+      padding: 30px 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .column h3 {
+      margin-bottom: 15px;
+      font-size: 1.3rem;
+      color: #333;
+    }
+    .column p {
+      font-size: 1rem;
+      color: #666;
+    }
+    
+    /* Real Results Section */
+    .results {
+      background: #e9f7ef;
+      border-radius: 8px;
+      padding: 40px;
+      margin: 40px auto;
+      text-align: left;
+      max-width: 800px;
+    }
+    .results p {
+      margin-bottom: 15px;
+      font-size: 1.1rem;
+      color: #2e7d32;
+    }
+    
+    /* How It Works Section */
+    .steps {
+      text-align: left;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .steps ol {
+      padding-left: 20px;
+    }
+    .steps li {
+      margin-bottom: 15px;
+      font-size: 1.1rem;
+      color: #555;
+    }
+    
+    /* Footer */
+    footer {
+      background: #4e54c8;
+      color: #fff;
+      padding: 40px 0;
+      text-align: center;
+    }
+    footer p {
+      margin-bottom: 15px;
+      font-size: 1rem;
+    }
+    
+    /* Media Queries */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .three-columns {
+        flex-direction: column;
+      }
+      .column {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Hero Section -->
+  <header>
+    <div class="container">
+      <h1>AI-Powered Strategy for Creators & Content Teams</h1>
+      <p>Plan smarter shows, faster — with data-driven scripts, calendars, and live feedback.</p>
+      <a href="#signup" class="btn">Join the Waitlist</a>
+    </div>
+  </header>
+  
+  <!-- What We Do Section -->
+  <section id="what-we-do">
+    <div class="container">
+      <h2>What We Do</h2>
+      <div class="three-columns">
+        <div class="column">
+          <h3>Audience Insights</h3>
+          <p>Get real-time analysis on what your audience craves.</p>
+        </div>
+        <div class="column">
+          <h3>AI-Powered Calendars</h3>
+          <p>Receive tailored content plans based on trending data and performance insights.</p>
+        </div>
+        <div class="column">
+          <h3>Script Generator</h3>
+          <p>Create optimized run-of-show scripts that drive engagement and growth.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Real Results Section -->
+  <section id="results">
+    <div class="container">
+      <h2>Real Results</h2>
+      <div class="results">
+        <p><strong>50M+ views</strong> generated using our internal tool</p>
+        <p><strong>$39K MRR</strong> from brand collaborations</p>
+        <p><strong>330% audience growth</strong> for one creator</p>
+        <p>Battle-tested and proven. Now opening up to more creators.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- How It Works Section -->
+  <section id="how-it-works">
+    <div class="container">
+      <h2>How It Works</h2>
+      <div class="steps">
+        <ol>
+          <li><strong>Connect:</strong> Link your YouTube, TikTok, or Podcast account.</li>
+          <li><strong>Analyze:</strong> Our AI processes audience data and historical content.</li>
+          <li><strong>Deliver:</strong> Receive a tailored content calendar and script ideas each week.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer / Call-to-Action -->
+  <footer id="signup">
+    <div class="container">
+      <p>Ready to produce smarter content?</p>
+      <a href="#signup" class="btn">Join the Waitlist</a>
+    </div>
+  </footer>
+</body>
+</html>
